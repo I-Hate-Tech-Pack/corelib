@@ -66,5 +66,13 @@ publishing {
             name = 'HowXu.public'
             url = 'https://maven.howxu.cn/'
         }
+        credentials {
+                username = System.getenv('MAVEN_USERNAME')
+                password = System.getenv('MAVEN_PASSWORD')
+        }
+
+        authentication {
+            basic(BasicAuthentication)
+        }
     }
 }
