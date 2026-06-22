@@ -63,8 +63,8 @@ publishing {
     }
     repositories {
         maven {
-            name = 'henkelmax.public'
-            url = 'https://maven.maxhenkel.de/repository/public'
+            name = 'HowXu.public'
+            url = 'https://maven.howxu.cn/'
         }
     }
 }
